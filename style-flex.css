@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(236, 236, 236);
+}
+
+section {
+    width: 95%;
+    margin: 3% auto;
+    border: 1px solid #ccc;
+    display: flex;
+}
+.row{width: 100%;}
+.box {
+    border: 1px solid #ccc;
+    flex-wrap: wrap;
+    flex: 1;
+    margin: 10px;
+    display: inline-flex;
+    background-color: #fff; 
+    padding:10px;
+    font-family:  'Raleway', sans-serif;
+}
+
+.box .foto {
+    width: 30%;
+    text-align: center;
+}
+
+.box .foto img {
+    width: 100%;
+    text-align: center;
+}
+.box .foto .social{
+    text-align: center;
+}
+.box .foto .social img {
+    width: 23%;
+    
+   
+}
+
+.box h1,
+p {
+    clear: both;
+}
+
+.box .texto {
+    width: 68%;
+}
+
+button {
+    background-color: rgb(170, 170, 170);
+    border: 0;
+    padding: 9px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: rgb(88, 88, 88);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 760px) {
+    .box {width: 94%;
+        clear:both;}
+    section{
+     display:contents;}
+}
